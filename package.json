@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "description": "Turbo watch playground",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "turbo run serve"
   },
   "author": {
     "name": "Örjan Sjöholm"
   },
   "license": "ISC",
-  "workspaces": ["app/*"]
+  "workspaces": [
+    "apps/*"
+  ],
+  "packageManager": "npm@10.2.5",
+  "devDependencies": {
+    "turbo": "^1.13.4-canary.2"
+  }
 }
