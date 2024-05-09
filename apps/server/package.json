@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mkdir -p dist && cp src/index.js dist/.",
-    "serve": "node dist/index.js"
+    "serve": "node --watch dist/index.js"
   },
   "private": true
 }

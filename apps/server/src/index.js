@@ -2,7 +2,7 @@ const sleep = (ms) => {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-const applicationVersion = "v1.0.0";
+const applicationVersion = "v2.0.1";
 
 async function main() {
     let iteration = 0;

@@ -1,14 +1,24 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "extends": ["//"],
+  "extends": [
+    "//"
+  ],
   "pipeline": {
     "build": {
-      "inputs": ["src/**"],
-      "outputs": ["dist/**"]
+      "inputs": [
+        "src/**"
+      ],
+      "outputs": [
+        "dist/**"
+      ]
     },
     "serve": {
-      "inputs": ["dist/**"],
-      "dependsOn": ["build"],
+      "inputs": [
+        "dist/**"
+      ],
+      "dependsOn": [
+        "build"
+      ],
       "persistent": true,
       "cache": false
     }

@@ -1,8 +1,4 @@
 {
   "$schema": "https://turbo.build/schema.json",
-  "pipeline": {
-    "serve": {
-      "dependsOn": ["^serve"]
-    }
-  }
+  "pipeline": {}
 }
