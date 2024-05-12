@@ -13,7 +13,11 @@
     "apps/*"
   ],
   "packageManager": "npm@10.2.5",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "engineStrict": true,
   "devDependencies": {
-    "turbo": "^1.13.4-canary.2"
+    "turbo": "^1.13.4-canary.3"
   }
 }
