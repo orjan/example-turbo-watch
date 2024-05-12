@@ -8,7 +8,7 @@ async function main() {
     let iteration = 0;
     while (true) {
         iteration++;
-        console.log("Server is running", applicationVersion, iteration);
+        console.log("Client is running", applicationVersion, iteration);
         await sleep(5000);
     }
 }
